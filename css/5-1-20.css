@@ -43,7 +43,7 @@
 }
 
 #g-nav.panelactive #g-nav-list{
-     display: block; /*クラスが付与されたら出現*/
+     display: contents; /*クラスが付与されたら出現*/
 }
 
 /*ナビゲーション*/
@@ -52,9 +52,9 @@
     /*ナビゲーション天地中央揃え※レイアウトによって調整してください。不必要なら削除*/
     position: absolute;
     z-index: 999;
-    top:50%;
+    top:0%;
     left:50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,0%);
 }
 
 /*背景が出現後にナビゲーションを表示*/
