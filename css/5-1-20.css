@@ -89,7 +89,7 @@ opacity: 1;
 #g-nav li a{
 	color: #333;
 	text-decoration: none;
-	padding:10px;
+	padding:0px;
 	display: block;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
