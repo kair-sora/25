@@ -1,0 +1,74 @@
+body,
+html {
+  height: 100%;
+  margin: 0 auto;
+}
+
+body{
+  background-image: url(/ProSEKAimg/2-5world.png); 
+  background-size: cover;
+}
+
+h1{
+  font-size: 47px;
+  font-weight: lighter;
+  color: #ffff;
+  position: absolute;
+  top: 0pt;
+  left: 90px;
+}
+
+.box18{
+  margin:2em 0;
+  position: absolute;
+  top: 90px;
+  left: 90px;
+  width: 500px;
+  height: 500px;
+  padding: 0.25em 1em;
+  border: solid 2px #ffcb8a;
+  border-radius: 3px 0 3px 0;
+  background-color: rgba(255, 255, 255,0.7);
+}
+.box18:before,.box18:after
+{
+  content: '';
+  position: absolute;
+  width:10px;
+  height: 10px;
+  border: solid 2px #ffcb8a;
+  border-radius: 50%;
+}
+.box18:after {
+  top:-12px;
+  left:-12px;
+}
+.box18:before {
+  bottom:-12px;
+  right:-12px;
+}
+.box18 p {
+  margin: 0; 
+  padding: 0;
+}
+
+.image{
+  float: right;
+  margin-top: 100px;
+  margin-right: 100px;
+}
+
+#photo {
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  text-align: left;
+  overflow: hidden;
+  position: relative;
+}
+
+#photo img {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
